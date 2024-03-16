@@ -24,7 +24,7 @@ let isDark = () => {
     return (body.style.backgroundColor === "black");
 }
 let falsePlay = () => {
-    result.innerHTML = "FALSE PLAY"+"<br><br>To try again, hit the space bar or click anywhere";
+    result.innerHTML = "false play! wait for the background to turn white".toUpperCase()+"<br><br>To try again, hit the space bar or click anywhere";
 }
 let getResult = () => {
     let reactionTime = stopTimer - startTimer;
